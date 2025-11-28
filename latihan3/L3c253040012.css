@@ -1,0 +1,51 @@
+body{
+    font-family: Georgia, serif;
+    background-color: #00ffff;
+}
+
+h1{
+    color: #00008B;
+    text-align:  left;
+    font-size: 60px;
+    font-family: Comic Sans MS;
+}
+
+h3{
+    text-align: left;
+}
+
+h4{
+    text-align: right;
+    font-family: Arial Black;
+    font-style: italic;
+}
+
+#p1{
+    color: orange;
+    text-align: center;
+}
+
+#p2{
+    text-align: right;
+}
+
+
+#a1 {
+    font-variant: small-caps;
+    color: white;
+}
+
+#a1:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#a2 {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#a2:hover {
+    color: white;
+    background-color: blue;
+}

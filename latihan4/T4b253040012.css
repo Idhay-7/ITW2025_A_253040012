@@ -1,0 +1,176 @@
+/* === RESET === */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1.6;
+    background-color: #ffffff;
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #eaeaea;
+    background-image: url(img/back.jpg);
+    background-repeat: repeat-y;
+    background-size: 1600px auto;
+    background-position: center;
+}
+
+/* CONTAINER */
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: rgba(89, 89, 89, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.6);
+    overflow: hidden;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(135deg, #0907a8, #780093);
+    padding: 20px 25px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.header ul {
+    margin-top: 12px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #f5f5f5;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.header a:hover {
+    background-color: white;
+    color: #5e2bb8;
+}
+
+/* HERO */
+.hero {
+    height: 300px;
+    background-image: url(img/mobile_legends_logo.webp);
+    background-size: cover;
+    background-position: center;
+    border-top: 5px solid #5e2bb8;
+    border-bottom: 5px solid #5e2bb8;
+}
+
+/* CONTENT */
+.content {
+    padding: 30px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0907a8;
+    margin-bottom: 10px;
+}
+
+.content h3 {
+    color: #a46eff;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.content .penulis {
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: #aaa;
+}
+
+.content .penulis a {
+    color: #a46eff;
+    text-decoration: none;
+}
+
+.content .penulis a:hover {
+    text-decoration: underline;
+}
+
+.content p {
+    margin-bottom: 18px;
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: justify;
+    color: #ffffff;
+}
+
+/* IMAGE GRID */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.image-grid img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(255,255,255,0.3);
+}
+
+/* FOOTER */
+.footer {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer .copy {
+    color: #ccc;
+    font-size: 13px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .header .judul {
+        font-size: 26px;
+    }
+    .hero {
+        height: 200px;
+    }
+    .content {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,52 @@
+body{
+    font-family:  Georgia, serif;
+    background-image: url(background.png);
+    background-repeat: repeat-x;
+}
+
+h1{
+    color: #00008B;
+    text-align: center;
+    font-size: 60px;
+    font-family: Comic Sans MS;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif Black;
+    font-style: italic;
+}
+
+#p1{
+    color: orange;
+    text-align: center;
+}
+
+#p2{
+    text-align: right;
+}
+
+
+#a1 {
+    font-variant: small-caps;
+    color: red;
+}
+
+#a1:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#a2 {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#a2:hover {
+    color: white;
+    background-color: blue;
+}

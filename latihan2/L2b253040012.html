@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Form Input Data Mahasiswa</title>
+<style>
+  caption {
+    background-color: #44444E;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #333;
+  }
+
+  td {
+    border: 1px solid #333;
+    padding: 8px;
+  }
+
+  td:first-child {
+    width: 150px;
+    text-align: right;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 95%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    resize: none;
+    height: 80px;
+  }
+
+  input[type="submit"] {
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: #e8e8e8;
+    border: 1px solid #333;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #cce0ff;
+  }
+</style>
+</head>
+<body>
+
+<form action="#" method="post">
+  <table>
+    <caption>INPUT DATA MAHASISWA</caption>
+
+    <tr>
+      <td>Username</td>
+      <td>:</td>
+      <td><input type="text" name="username"></td>
+    </tr>
+
+    <tr>
+      <td>Password</td>
+      <td>:</td>
+      <td><input type="password" name="password"></td>
+    </tr>
+
+    <tr>
+      <td>Fullname</td>
+      <td>:</td>
+      <td><input type="text" name="fullname"></td>
+    </tr>
+
+    <tr>
+      <td>E-mail</td>
+      <td>:</td>
+      <td><input type="email" name="email"></td>
+    </tr>
+
+    <tr>
+      <td>Agama</td>
+      <td>:</td>
+      <td>
+        <select name="agama">
+          <option>--Pilih Agama--</option>
+          <option>Islam</option>
+          <option>Kristen</option>
+          <option>Katolik</option>
+          <option>Hindu</option>
+          <option>Buddha</option>
+          <option>Konghucu</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Jenis Kelamin</td>
+      <td>:</td>
+      <td>
+        <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+        <input type="radio" name="gender" value="Perempuan"> Perempuan
+      </td>
+    </tr>
+
+    <tr>
+      <td>Hobi</td>
+      <td>:</td>
+      <td>
+        <input type="checkbox" name="hobi" value="Musik"> Musik
+        <input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+        <input type="checkbox" name="hobi" value="Gaming"> Gaming
+        <input type="checkbox" name="hobi" value="Lainnya"> Lainnya
+      </td>
+    </tr>
+
+    <tr>
+      <td>Profil singkat</td>
+      <td>:</td>
+      <td><textarea name="profil"></textarea></td>
+    </tr>
+
+    <tr>
+      <td colspan="3" align="right">
+        <input type="submit" value="Input">
+      </td>
+    </tr>
+  </table>
+</form>
+
+</body>
+</html>
